@@ -34,7 +34,7 @@ printf "Completed.\n"
 # Deploy microservice
 printf "Deploying orders service...\n"
 gcloud run deploy ${SERVICE_NAME} \
-    --image gcr.io/${GOOGLE_CLOUD_PROJECT}/${SERVICE_NAME}
+    --image gcr.io/${GOOGLE_CLOUD_PROJECT}/${SERVICE_NAME} \
     --no-allow-unauthenticated
 printf "Completed.\n"
 
