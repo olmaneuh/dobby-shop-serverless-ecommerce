@@ -15,7 +15,7 @@
  */
 
 const express = require('express');
-const ordersData = require('../../data/orders.json');
+const ordersData = require('./data/orders.json');
 
 const app = express();
 
