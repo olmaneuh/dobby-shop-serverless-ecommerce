@@ -26,7 +26,7 @@ printf "Completed.\n"
 
 # Build microservice
 printf "Building orders service...\n"
-gcloud builds submits \
+gcloud builds submit \
     ${SERVICE_SRC} \
     --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/${SERVICE_NAME}
 printf "Completed.\n"
