@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "S00001",
+      "name": "Super Fast Sneakers",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "picture": "https://dummyimage.com/500x300",
+      "cost": 99.99,
+      "categories": ["sport"]
+    },
+    {
+      "id": "S00002",
+      "name": "Black And White Shoes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "picture": "https://dummyimage.com/500x300",
+      "cost": 50.99,
+      "categories": ["casual"]
+    },
+    {
+      "id": "S00003",
+      "name": "Beach Sandals",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "picture": "https://dummyimage.com/500x300",
+      "cost": 10.99,
+      "categories": ["casual"]
+    },
+    {
+      "id": "S00004",
+      "name": "Dobby Free Shoes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "picture": "https://dummyimage.com/500x300",
+      "cost": 99.99,
+      "categories": ["special"]
+    },
+    {
+      "id": "S00005",
+      "name": "The Grim",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "picture": "https://dummyimage.com/500x300",
+      "cost": 10.99,
+      "categories": ["mountain"]
+    },
+    {
+      "id": "S00006",
+      "name": "Hogwarts School",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "picture": "https://dummyimage.com/500x300",
+      "cost": 10.99,
+      "categories": ["dress"]
+    }
+  ]
+}
