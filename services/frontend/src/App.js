@@ -1,21 +1,14 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
-import Product from './components/Product/Product';
+import ProductFeed from './components/ProductFeed/ProductFeed';
 import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Navigation></Navigation>
       <Container>
-        <div className="row">
-          <Product></Product>
-          <Product></Product>
-          <Product></Product>
-          <Product></Product>
-          <Product></Product>
-          <Product></Product>
-        </div>
+        <ProductFeed></ProductFeed>
       </Container>
     </div>
   );
